@@ -1,6 +1,6 @@
 # Vue 3.2 + TypeScript + Pinia + Vite2 + Element-Plus 管理系统（开源啦 🎉🎉）
 
-![banner](https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/md/banner.png)
+![banner](https://i.postimg.cc/MKmKkSLZ/20220901173115.jpg)
 
 ### 前言 📖
 

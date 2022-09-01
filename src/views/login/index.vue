@@ -10,8 +10,8 @@
 			</div>
 			<div class="login-form">
 				<div class="login-logo">
-					<h2 class="logo-text" v-if="loginRef.value">登录</h2>
-					<h2 class="logo-text" v-else>注册</h2>
+					<h2 class="logo-text" v-show="loginRef">登录</h2>
+					<h2 class="logo-text" v-show="!loginRef">注册</h2>
 				</div>
 				<LoginForm ref="loginRef" @showLogin="showLogin" />
 			</div>
