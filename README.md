@@ -4,7 +4,7 @@
 
 ### 前言 📖
 
-Geeker Admin，基于 Vue3.2、TypeScript、Vite2、Pinia、Element-Plus 开源的一套后台管理模板，目前利用空余时间开发 🕒🕒。项目中很多样式都是借鉴其它的管理系统，但代码是完全自己编写的，整个项目还有很多地方不完善，后期会持续更新（项目文档），希望大家能多提意见。
+Block Admin，基于 Vue3.2、TypeScript、Vite2、Pinia、Element-Plus 开源的一套后台管理模板，目前利用空余时间开发 🕒🕒。简化了很多复杂开源项目的步骤，属于个人公司企业级开发，整个项目目前还有很多地方不完善，后期会持续更新（项目文档）和新增自己高可用的组件库，引入很多后台管理模块用到的模块，希望大家能多提意见，也希望大家能共同维护这份开源代码，欢迎新增功能，为社区出力且能给自己简历新添一笔。
 
 ### ？为什么开发这个管理系统 🤷‍♂️
 
@@ -13,33 +13,25 @@ Geeker Admin，基于 Vue3.2、TypeScript、Vite2、Pinia、Element-Plus 开源�
 
 ### 项目相关文档 📚
 
-- 项目更新日志：[CHANGELOG.md](./CHANGELOG.md)
-
 - 代码规范文档：[STANDARD.md](./STANDARD.md)
 
 ### 一、在线预览 👀
 
-- Link：https://geeker-admin.vercel.app
+- Link：后期补上，也请大家多多支持
 
 ### 二、Git 仓库地址 (欢迎 Star⭐)
 
-- Gitee：https://gitee.com/laramie/Geeker-Admin
-- GitHub：https://github.com/HalseySpicy/Geeker-Admin
+- GitHub：https://github.com/suzhiwei2000/vue3-.git
 
-### 三、🔥🔥🔥 React18 最新版本已完成 🎉 欢迎 Star
-
-- Gitee：https://gitee.com/laramie/Hooks-Admin
-- GitHub：https://github.com/HalseySpicy/Hooks-Admin
-
-### 四、🔨🔨🔨 项目功能
+### 三、🔨🔨🔨 项目功能
 
 - 🚀 使用 Vue3.2 开发，单文件组件 `＜script setup＞`
 - 🚀 采用 Vite2 作为项目开发、打包工具（配置了 Gzip 打包、TSX 语法、跨域代理、打包预览工具……）
-- 🚀 整个项目集成了 TypeScript （完全是为了想学习 🤣）
-- 🚀 使用 Pinia🍍 替代 Vuex，轻量、简单、易用（香啊~🤤 集成了持久化插件）
+- 🚀 整个项目集成了 TypeScript （完全是为了想学习 ，感觉后台项目不用 typeScript 会更爽，初学者会容易搞不懂 ts🤣）
+- 🚀 使用 Pinia🍍 替代 Vuex，轻量、简单、易用（不用大型项目还是建议用 vuex）
 - 🚀 使用 TypeScript 对 Axios 整个二次封装 （全局错误拦截、常用请求封装、全局请求 Loading、取消重复请求……）
 - 🚀 对表格的所有操作基本都封装成了 Hooks （表格数据搜索、重置、查询、分页、多选、单条数据操作、文件上传、下载、格式化单元格内容……）
-- 🚀 基于 Element 二次封装 [Pro-Table 组件](https://juejin.cn/post/7094890833064755208) ，表格页面全部传成配置项 Columns
+- 🚀 基于 Element 二次封装 [Pro-Table 组件] ，表格页面全部传成配置项 Columns
 - 🚀 支持 Element 组件大小切换、暗黑模式、i18n 国际化（i18n 暂时没配置所有文件，根据项目自行配置）
 - 🚀 使用 vue-router 进行路由权限拦截（403 页面）、页面按钮权限配置、路由懒加载
 - 🚀 使用 keep-alive 对整个页面进行缓存，支持多级嵌套页面（缓存路由里可配置、页面切换带动画）
@@ -52,17 +44,15 @@ Geeker Admin，基于 Vue3.2、TypeScript、Vite2、Pinia、Element-Plus 开源�
 - **Clone：**
 
 ```text
-# Gitee
-git clone https://gitee.com/laramie/Geeker-Admin.git
 # GitHub
-git clone https://github.com/HalseySpicy/Geeker-Admin.git
+git clone https://github.com/suzhiwei2000/vue3-.git
 ```
 
 - **Install：**
 
 ```text
+yarn install
 npm install
-cnpm install
 
 # npm install 安装失败，请升级 nodejs 到 16 以上，或尝试使用以下命令：
 npm install --registry=https://registry.npm.taobao.org
@@ -74,7 +64,7 @@ npm i @element-plus/icons-vue@1.1.4 @vueuse/core@8.0.1 @wangeditor/editor@5.1.12
 - **Run：**
 
 ```text
-npm run dev
+yarn serve
 npm run serve
 ```
 
@@ -115,25 +105,25 @@ npm run commit
 
 #### 1、登录页：
 
-![login-light](https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/md/login-light.png)
+![login-light](https://i.postimg.cc/MKmKkSLZ/20220901173115.jpg)
 
 ![login-dark](https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/md/login-dark.png)
 
 #### 2、首页：
 
-![home_light](https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/md/home_light.png)
-
-![home-dark](https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/img/20220602145003.png)
+![home_light](https://i.postimg.cc/DyKFvw4k/image.png)
 
 #### 3、表格页：
 
-![table_light](https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/md/table_light.png)
-
-![table-dark](https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/img/20220602145016.png)
+![table_light](https://i.postimg.cc/N02P2RZN/image.png)
 
 #### 4、数据大屏：
 
-![dataScreen02](https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/img/20220602170253.png)
+![dataScreen02](https://i.postimg.cc/c4Jh8QnQ/image.png)
+
+#### 5.锁屏功能 设置了屏幕不操作 30 分钟锁屏和手动锁屏功能
+
+![lockScreen](https://i.postimg.cc/28BqJyps/image.png)
 
 ### 七、文件资源目录 📚
 
@@ -207,9 +197,9 @@ Geeker-Admin
 
 > **😀 微信群超过 200 人了，请加我好友，我拉大家进群**
 
-|                                                      微信二维码                                                       |
-| :-------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/img/20220610141657.png" alt="Wechat QRcode" width=170> |
+|                                                 微信二维码                                                  |
+| :---------------------------------------------------------------------------------------------------------: |
+| <img src="https://i.postimg.cc/qBFwyNXS/cfcacd490a79cdd5577e4fa91a6f9c9.jpg" alt="Wechat QRcode" width=170> |
 
 ### 十一、捐赠 🍵
 
@@ -219,6 +209,6 @@ Geeker-Admin
 
 - 通过 **微信、支付宝** 一次性捐款，够维护访问地址就行 🤣🤣
 
-|                                                         微信                                                          |                                                        支付宝                                                         |
-| :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/img/20220610144145.png" alt="Wechat QRcode" width=170> | <img src="https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/img/20220610144200.png" alt="Alipay QRcode" width=170> |
+|                                                    微信                                                     | 支付宝 |
+| :---------------------------------------------------------------------------------------------------------: | :----: |
+| <img src="https://i.postimg.cc/BvZ7Nd8V/84ab8b085e5d985cf7a48af222a2ca2.jpg" alt="Wechat QRcode" width=170> |
